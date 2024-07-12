@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { redirect } from 'next/navigation'
 import { api } from '@/data/api'
 import { Product } from '@/data/types/product'
-import { Key } from 'lucide-react'
 
 interface SearchProps {
   searchParams: {
